@@ -46,6 +46,7 @@ app.post("/register",function(req,res){
         res.render("secrets");
     }).catch((err)=>{
         console.log(err);
+        console.log("try again");
     })
 })
 app.post("/login",function(req,res){
